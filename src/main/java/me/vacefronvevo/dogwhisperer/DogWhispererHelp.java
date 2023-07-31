@@ -22,8 +22,8 @@ public class DogWhispererHelp implements CommandExecutor {
         if (bookItemData == null)
             return false;
 
-        bookItemData.setTitle("Dog commander help");
-        bookItemData.setAuthor("Dog commander");
+        bookItemData.setTitle("Dog whisperer help");
+        bookItemData.setAuthor("Dog whisperer");
         bookItemData.addPage(ChatColor.translateAlternateColorCodes('&', "Thanks for using dog whisperer!\n\nTurn the page for instructions on how to use this plugin.\n\n\n\n\n\n\n\n &o- VAC Efron&r"));
         bookItemData.addPage(ChatColor.translateAlternateColorCodes('&', "&lRequirements:&r\n - Have a stick equipped"));
         bookItemData.addPage(ChatColor.translateAlternateColorCodes('&', "&lAdd/release dog:&r\n - Left click the dog\n\n&lMove the dog(s):&r\n - Left click to move to location\n - Right click to recall\n\n&lAttack mob:&r\n - Left click the mob"));
