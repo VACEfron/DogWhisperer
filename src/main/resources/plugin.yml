@@ -1,0 +1,13 @@
+name: DogWhisperer
+version: '${project.version}'
+main: me.vacefronvevo.dogwhisperer.DogWhisperer
+api-version: '1.20'
+
+commands:
+  dogwhisperer:
+    description: DogWhisperer help
+    usage: /[command]
+
+  summondogs:
+    description: Summon the dogs in your party
+    usage: /[command]
